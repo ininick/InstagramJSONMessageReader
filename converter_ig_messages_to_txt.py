@@ -43,9 +43,13 @@ def readInstagramMessage(path, filename, order, outputfilename):
 
 path = input("Enter the path of the file: ")
 filename = input("Enter the filename [default is: message_1][Only JSON file, not  including .json]: ")
-order = input("Enter the order of the messages [0-Oldest to Newest][1-Newest to Oldest]: ")
+filename = 'message_1' if filename == '' else filename
+order = input("Enter the order of the messages [0-Oldest to Newest- default][1-Newest to Oldest]: ")
+if not 0 or not 1:
+    print("Invalid input. Default is 0.")
+    order = "0"
 outputfilename = input("Enter the output filename [Only TXT file, not including .txt]: ")
-
+outputfilename = 'message_1_result' if outputfilename == '' else outputfilename
 print("Reading Instagram Message...")
 print("Output will be in the same folder as the input file. Please wait.")
 
