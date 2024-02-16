@@ -10,7 +10,7 @@ Step:
 4. Assume use the default, enter (keep blank)
    ![image](https://github.com/ininick/InstagramJSONMessageReader/assets/110322459/c30e1fe6-5287-48cd-8daf-287902745d52)
 5. Enter oldest -> newest or vice versa
-   ![image](https://github.com/ininick/InstagramJSONMessageReader/assets/110322459/f90f3813-e8dd-4f62-b0d5-a23271669c5f)
+   ![image](https://github.com/ininick/InstagramJSONMessageReader/assets/110322459/2ce6e7ac-2748-4032-aaf3-bddf8faf313f)
 6. Then enter the output filename, default is message_1_result
    ![image](https://github.com/ininick/InstagramJSONMessageReader/assets/110322459/8ca0bed8-f616-4d33-9b26-0348a8e35315)
 7. Then the result will appear as new .txt file
